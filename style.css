@@ -1,0 +1,71 @@
+/* common style  */
+
+main{display: flex;
+    justify-content: center;}
+body{margin:0; padding:0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 33px 30px;
+    
+}
+
+/* top players style  */
+.Top_Player_Title{
+    color: #562EFF;
+    margin-top: 0;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-column-gap: 20px;
+    grid-row-gap:16px;
+    border-bottom: 2px solid rgb(226, 220, 220);
+    padding-bottom: 30px;
+}
+.player{display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{margin-left: 16px;
+font-size: 18px;}
+
+
+/*-----------------------
+        top blog part
+--------------------------  */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display: flex;
+}
+.thumbnail img{
+    width: 177px;
+    height: 117;
+}
+.blog-info{
+    margin-left:16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.author-author{
+    color: rgb(231, 219, 219);
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(141, 194, 194);
+}
